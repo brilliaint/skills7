@@ -1,26 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
 
 @font-face {
-	font-family: ‘Roboto’, ‘Open Sans’, sans-serif;
-	font-style: normal;
-	font-size: 1rem;
-  font-weight: 900, 800, 700, 500, 400;
+	font-family:"Goldman","Roboto", "Open Sans", sans-serif;
+  font-weight: 900, 800, 700, 500, 400, 300;
 }
 
-.topnav {
-  background-image: image (link href="logos/xb3logo240x320.svg")
-}
-.content{
-  display: inline-flex;
-}
-.gridstyle-1 {
-
-}
-.gridstyle-2 {
-
+body {
+    fonts: "Goldman", "Roboto", "Open Sans", sans-serif;
+    background-image: ("/skills7/images/logos/xb3logo240x320.svg");
+    align-content:center;
+    Display: flex;
+    font-family: "Roboto","Open Sans", sans-serif;
+    font-size: 18px;
 }
 
-.page-header h1, h2 {
+.svgs {
+    display: flex;
+    position: relative;
+    align-content: center;
+    max-width: 1920px
+}
+
+@media {max-width:659px {
+
+}
+
+@media {min-width:660px {
+
+}
+
+@media (min-width:800px) {
+
+}
+
+@media (min-width:1000px) {
+
+}
+
+@media (min-width:1200px) {
+
+    body {
+        background-image: url("https://picsum.photos/id/104");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+h1, h2 {
 	font-family: 'Roboto', 'Open Sans', sans-serif;
 	font-size: 1.25rem
 	font-style: normal, italic;
